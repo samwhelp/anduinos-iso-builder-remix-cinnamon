@@ -1,0 +1,44 @@
+
+
+##
+## # Desktop Environment
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / Cinnamon
+##
+
+cinnamon-desktop-environment
+#cinnamon
+
+
+
+
+##
+## ## Package / Window Manager / Openbox
+##
+
+#openbox
+
+
+
+
+##
+## ## Package / Desktop Environment
+##
+
+accountsservice
+
+asunder
+atril
+
+
+gnome-disk-utility
+gnome-keyring
+gnome-nettool
+gnome-system-tools
+
+remmina
