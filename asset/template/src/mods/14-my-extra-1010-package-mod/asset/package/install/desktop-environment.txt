@@ -15,13 +15,9 @@ cinnamon-desktop-environment
 #cinnamon
 
 
-
-
-##
-## ## Package / Window Manager / Openbox
-##
-
-#openbox
+mate-terminal
+lxterminal
+sakura
 
 
 
