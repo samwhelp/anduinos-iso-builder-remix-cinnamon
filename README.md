@@ -112,10 +112,10 @@ make combine-via-git
 ### Build All
 
 
-> change dir to `~/work/anduinos-iso-builder-cinnamon/iso-profile`
+> change dir to `~/work/anduinos-iso-builder-remix-cinnamon/iso-profile`
 
 ``` sh
-cd ~/work/anduinos-iso-builder-cinnamon/iso-profile
+cd ~/work/anduinos-iso-builder-remix-cinnamon/iso-profile
 ```
 
 
@@ -138,10 +138,10 @@ make build-fast
 ### Build Default
 
 
-> change dir to `~/work/anduinos-iso-builder-cinnamon/iso-profile/src`
+> change dir to `~/work/anduinos-iso-builder-remix-cinnamon/iso-profile/src`
 
 ``` sh
-cd ~/work/anduinos-iso-builder-cinnamon/iso-profile/src
+cd ~/work/anduinos-iso-builder-remix-cinnamon/iso-profile/src
 ```
 
 
