@@ -13,6 +13,7 @@
 ## Subject
 
 * [Source](#source)
+* [Module](#module)
 * [Remix](#remix)
 * [Howto](#howto)
 
@@ -24,6 +25,26 @@
 | Source |
 | --- |
 | GitHub / [AnduinOS](https://github.com/Anduin2017/AnduinOS)
+
+
+
+
+## Module
+
+| Main Module | Purpose |
+| ----------- | ------- |
+| [14-my-extra-1010-package-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) | [install package](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod/asset/package/install) |
+| [14-my-extra-1020-overlay-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod) | [install file](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay) |
+
+
+| Infrastructure | Purpose |
+| -------------- | ------- |
+| [60-dconf-system-db-init-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/60-dconf-system-db-init-mod) | [/etc/dconf](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay/etc/dconf) |
+| [61-gsettings-schema-compile-mod](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/61-gsettings-schema-compile-mod) | [/usr/share/glib-2.0/schemas](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay/usr/share/glib-2.0/schemas) |
+
+
+* [Module / Ignored](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/blob/main/helper/docs/module/module-ignored.md)
+* [Module / Adjusted](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon/blob/main/helper/docs/module/module-adjusted.md)
 
 
 
@@ -60,17 +81,17 @@ sudo apt-get install git
 ```
 
 
-> clone [anduinos-iso-builder-remix](https://github.com/samwhelp/anduinos-iso-builder-remix)
+> clone [anduinos-iso-builder-remix-cinnamon](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon)
 
 ``` sh
-git clone https://github.com/samwhelp/anduinos-iso-builder-remix.git
+git clone https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon.git
 ```
 
 
-> change dir to `anduinos-iso-builder-remix`
+> change dir to `anduinos-iso-builder-remix-cinnamon`
 
 ``` sh
-cd anduinos-iso-builder-remix
+cd anduinos-iso-builder-remix-cinnamon
 ```
 
 
@@ -86,10 +107,10 @@ make combine-via-git
 ### Build All
 
 
-> change dir to `~/work/anduinos-iso-builder/iso-profile`
+> change dir to `~/work/anduinos-iso-builder-cinnamon/iso-profile`
 
 ``` sh
-cd ~/work/anduinos-iso-builder/iso-profile
+cd ~/work/anduinos-iso-builder-cinnamon/iso-profile
 ```
 
 
@@ -112,10 +133,10 @@ make build-fast
 ### Build Default
 
 
-> change dir to `~/work/anduinos-iso-builder/iso-profile/src`
+> change dir to `~/work/anduinos-iso-builder-cinnamon/iso-profile/src`
 
 ``` sh
-cd ~/work/anduinos-iso-builder/iso-profile/src
+cd ~/work/anduinos-iso-builder-cinnamon/iso-profile/src
 ```
 
 
